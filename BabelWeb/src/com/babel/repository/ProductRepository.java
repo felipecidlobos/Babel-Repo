@@ -1,4 +1,9 @@
+package com.babel.repository;
+
 import com.babel.models.Product;
+
+import java.util.List;
+
 import com.babel.implementation.ProductDaoImp;
 
 public class ProductRepository {
@@ -10,7 +15,7 @@ public class ProductRepository {
 	}
 
 	public void editProduct(Product product) {
-		dao.editProduct(productid, description, nprice, unidadmedida);
+		dao.editProduct(product);
 	}
 
 	public void deleteProduct(Product product) {
@@ -18,6 +23,6 @@ public class ProductRepository {
 	}
 
 	public List<Product> getProducts() {
-		dao.getProducts();
+		return dao.getProducts();
 	}
 }
