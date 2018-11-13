@@ -3,6 +3,7 @@ package com.babel.implementation;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import com.babel.dao.ProductDAO;
 import com.babel.models.Product;
