@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+		
+	<h head>
+	</h head>
+	
+	<hbody>
+		<h1>Lista de Productos</h1>
+		<h form id ="lista">
+			<p dataTable id="tablaLista" var="item" value="#{ProductRepository.prodList}" emptyMessage="No se encontraron productos" paginator="true" paginatorPosition="top" rows="10">
+				<p olumn headerText="id">
+					<p:outputLabel value="#{item.productId}" />
+				</p column>
+				<p column headerText="descripcion">
+					<p outputLabel value="#{item.description}" />
+				</p column>
+				<p column headerText="precio">
+					<p outputLabel value="#{item.price}" />
+				</p column>
+			
+			</p dataTable>
+		</h form>
+	</h body>
+</html>
