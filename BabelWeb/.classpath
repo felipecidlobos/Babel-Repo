@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> development/play
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
@@ -67,6 +70,7 @@
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
 >>>>>>> origin/development/hibernate
+<<<<<<< HEAD
 =======
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
@@ -114,3 +118,5 @@
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
 >>>>>>> origin/development/hibernate2
+=======
+>>>>>>> development/play
