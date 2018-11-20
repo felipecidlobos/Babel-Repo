@@ -2,7 +2,7 @@ package com.babel.models;
 
 public class Product {
 	int productId;
-	String Description;
+	String description;
 	Double price;
 	String uM;
 	
@@ -14,14 +14,14 @@ public class Product {
 	//default constructor
 	public Product(String description) {
 		this.productId = 0;
-		this.Description = description;
+		this.description = description;
 		this.price = 0.0;
 		this.uM = "um"; 
 	}
 	
 	public Product(int productid, String description, Double nprice, String unidadmedida) {
 		this.productId = productid;
-		this.Description = description;
+		this.description = description;
 		this.price = nprice;
 		this.uM = unidadmedida; 
 	}
@@ -44,14 +44,14 @@ public class Product {
 	 * @return the description
 	 */
 	public String getDescription() {
-		return Description;
+		return description;
 	}
 
 	/**
 	 * @param description the description to set
 	 */
 	public void setDescription(String description) {
-		Description = description;
+		this.description = description;
 	}
 
 	/**

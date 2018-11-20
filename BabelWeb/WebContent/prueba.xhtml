@@ -11,7 +11,23 @@
     <h:body>
         
         <h1>Hola mundo</h1>
+        <h:form	id="ingresarProducto">
         
+        <h:panelGrid columns="3" cellpadding="5">
+            <h:outputLabel value="description" />
+            <p:inputText value="#{productBean.product.description}" />
+             
+            <h:outputLabel value="Precio" />
+            <p:inputText value="#{productBean.product.price}" />
+            
+            <h:outputLabel for="Um" value="Um" />
+            <p:inputText value="#{productBean.product.uM}"/>
+              
+            <f:facet name="footer">
+                <p:commandButton value="Guardar" actionListener="#{productBean.addProduct()}"/>
+            </f:facet>  
+        </h:panelGrid>
+        </h:form>
         
     </h:body>
 </html>
