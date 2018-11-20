@@ -5,8 +5,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\Roberto\Desktop\Babel-Repo-development-hibernate2\BabelWeb"/>
 			<item value="D:\twk\Babel-Repo\BabelWeb"/>
+			<item value="C:\Users\Roberto\Desktop\Babel-Repo-development-hibernate2\BabelWeb"/>
 			<item value="D:\twk\Babel-Repo"/>
 			<item value="D:\twk\Babel-Repo\Babel"/>
 		</list>

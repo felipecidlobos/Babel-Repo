@@ -7253,3 +7253,2053 @@ GIF89a  €ÿ ÿÿÿ   ,       D ;
 !ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:48:48.756
 !MESSAGE Analytics ping response: 200: OK
 GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:21.925
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:21.925
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.947
+!MESSAGE File not found: '/babel/src/com/babel/dao/ProductDAO.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/dao/ProductDAO.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.948
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.953
+!MESSAGE File not found: '/babel/src/com/babel/implementation/ProductDaoImp.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/implementation/ProductDaoImp.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.953
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.954
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateTest.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateTest.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.955
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.956
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateUtil.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateUtil.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.956
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.959
+!MESSAGE File not found: '/babel/src/com/gwt/babel/server/GreetingServiceImpl.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/server/GreetingServiceImpl.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.960
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.960
+!MESSAGE File not found: '/babel/src/com/gwt/babel/shared/FieldVerifier.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/shared/FieldVerifier.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.960
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11911)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11883)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10293)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.beginToCompile(CompilationUnitResolver.java:225)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:894)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.964
+!MESSAGE File not found: '/babel/src/com/babel/dao/ProductDAO.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/dao/ProductDAO.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.964
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.965
+!MESSAGE File not found: '/babel/src/com/babel/dao/ProductDAO.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/dao/ProductDAO.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.965
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\dao\ProductDAO.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.966
+!MESSAGE File not found: '/babel/src/com/babel/implementation/ProductDaoImp.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/implementation/ProductDaoImp.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.966
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.967
+!MESSAGE File not found: '/babel/src/com/babel/implementation/ProductDaoImp.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/implementation/ProductDaoImp.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.967
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\implementation\ProductDaoImp.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.973
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateTest.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateTest.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.974
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.974
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateTest.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateTest.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.974
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateTest.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.975
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateUtil.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateUtil.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.975
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:21.976
+!MESSAGE File not found: '/babel/src/com/babel/util/HibernateUtil.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/babel/util/HibernateUtil.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:21.977
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\babel\util\HibernateUtil.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:22.012
+!MESSAGE File not found: '/babel/src/com/gwt/babel/server/GreetingServiceImpl.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/server/GreetingServiceImpl.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:22.012
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:22.013
+!MESSAGE File not found: '/babel/src/com/gwt/babel/server/GreetingServiceImpl.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/server/GreetingServiceImpl.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:22.013
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\server\GreetingServiceImpl.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:22.014
+!MESSAGE File not found: '/babel/src/com/gwt/babel/shared/FieldVerifier.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/shared/FieldVerifier.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:22.014
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.getMethodBodies(Parser.java:10704)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:878)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:909)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-11-20 12:59:22.015
+!MESSAGE File not found: '/babel/src/com/gwt/babel/shared/FieldVerifier.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/babel/src/com/gwt/babel/shared/FieldVerifier.java)[368]: java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-11-20 12:59:22.015
+!MESSAGE File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+!STACK 0
+java.lang.Exception: File not found: D:\Users\Roberto\eclipse-workspace\babel\src\com\gwt\babel\shared\FieldVerifier.java.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1207)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:682)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:918)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:614)
+	at org.eclipse.jdt.core.dom.ASTParser.createASTs(ASTParser.java:912)
+	at org.eclipse.jdt.internal.corext.dom.ASTBatchParser.createASTs(ASTBatchParser.java:86)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.handleBuildStarting(JavaCompilationParticipant.java:322)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant.access$0(JavaCompilationParticipant.java:303)
+	at com.google.gwt.eclipse.core.validators.java.JavaCompilationParticipant$1.run(JavaCompilationParticipant.java:193)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:23.087
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:23.088
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:23.271
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:24.141
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:24.142
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:24.373
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:24.853
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite 4 0 2018-11-20 12:59:54.875
+!MESSAGE Launch configuration processor failed to run
+!STACK 1
+org.eclipse.core.runtime.CoreException: The archive: /babel/src which is referenced by the classpath, does not exist.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1832)
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1817)
+	at org.eclipse.jdt.launching.JavaRuntime.resolveRuntimeClasspathEntry(JavaRuntime.java:1279)
+	at org.eclipse.jdt.launching.StandardClasspathProvider.resolveClasspath(StandardClasspathProvider.java:95)
+	at com.google.gwt.eclipse.core.launch.ModuleClasspathProvider.resolveClasspath(ModuleClasspathProvider.java:191)
+	at org.eclipse.jdt.internal.launching.RuntimeClasspathProvider.resolveClasspath(RuntimeClasspathProvider.java:68)
+	at org.eclipse.jdt.launching.JavaRuntime.resolveRuntimeClasspath(JavaRuntime.java:1684)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.getClasspath(AbstractJavaLaunchConfigurationDelegate.java:430)
+	at com.google.gdt.eclipse.core.launch.LaunchConfigurationProcessorUtilities.getClasspath(LaunchConfigurationProcessorUtilities.java:161)
+	at com.google.gdt.eclipse.core.launch.LaunchConfigurationProcessorUtilities.getClassLoaderFor(LaunchConfigurationProcessorUtilities.java:144)
+	at com.google.gdt.eclipse.suite.launch.processors.MainTypeProcessor.computeMainTypeName(MainTypeProcessor.java:126)
+	at com.google.gdt.eclipse.suite.launch.processors.MainTypeProcessor.update(MainTypeProcessor.java:170)
+	at com.google.gdt.eclipse.suite.launch.processors.LaunchConfigurationUpdater.update(LaunchConfigurationUpdater.java:141)
+	at com.google.gdt.eclipse.suite.launch.processors.LaunchConfigAffectingChangesListener.syncUpdate(LaunchConfigAffectingChangesListener.java:93)
+	at com.google.gdt.eclipse.suite.launch.processors.LaunchConfigAffectingChangesListener.access$2(LaunchConfigAffectingChangesListener.java:89)
+	at com.google.gdt.eclipse.suite.launch.processors.LaunchConfigAffectingChangesListener$1.runInWorkspace(LaunchConfigAffectingChangesListener.java:78)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2018-11-20 12:59:54.875
+!MESSAGE The archive: /babel/src which is referenced by the classpath, does not exist.
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:55.264
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 12:59:55.265
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY org.eclipse.ui.ide 4 4 2018-11-20 12:59:56.076
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2018-11-20 12:59:56.076
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2018-11-20 12:59:56.076
+!MESSAGE The project description file (.project) for 'babel' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-20 12:59:58.684
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-11-20 13:07:33.257 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-20 13:07:37.325
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-20 13:07:45.245
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roberto'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:07:47.759
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=none, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:07:47.767
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=none&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 2 0 2018-11-20 13:07:47.904
+!MESSAGE GWT SDK not found
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 2 0 2018-11-20 13:07:47.905
+!MESSAGE GWT SDK not found
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:07:47.946
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 2 0 2018-11-20 13:07:47.954
+!MESSAGE GWT SDK not found
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 2 0 2018-11-20 13:07:47.955
+!MESSAGE GWT SDK not found
+
+!ENTRY com.gwtplugins.gwt.eclipse.wtp 1 1 2018-11-20 13:07:48.435
+!MESSAGE GWT: GWT Facet startup
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2018-11-20 13:07:56.574
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/babel' does not exist.
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2018-11-20 13:07:56.575
+!MESSAGE isGWTProject(project) hasGwtnature exception Resource '/babel' does not exist.
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:08:13.589
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:08:13.590
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:08:13.778
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:09:15.434
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:09:15.435
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:09:15.610
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:36.954
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:36.955
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:37.264
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:50.582
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:50.584
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:50.752
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:51.173
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:51.174
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:21:51.337
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:03.714
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:03.715
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:03.880
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:06.767
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:06.768
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 13:22:06.938
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:33.564
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:33.577
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:33.748
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:34.589
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:34.589
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:23:34.740
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:14.766
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:14.767
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:14.975
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:15.665
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:15.665
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:15.835
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:44.213
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:44.214
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:44.378
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:46.833
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:46.834
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:46.997
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:55.878
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:55.879
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:24:56.060
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:31.891
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:31.892
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:32.086
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:32.760
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:32.761
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:32.910
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:45.142
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:45.143
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:45.321
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.073
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.074
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.265
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.417
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.417
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:57.606
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:58.485
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:58.485
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:25:58.653
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:03.552
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:03.553
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:03.704
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:03.892
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:03.892
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:04.067
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:04.921
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:04.922
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:05.084
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:12.004
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:12.004
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:12.172
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:12.884
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:12.885
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:26:13.047
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:33.079
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:33.080
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:33.530
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:33.951
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:33.952
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:34.099
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:51.965
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:51.966
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:52.149
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:52.989
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:52.989
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:53.152
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:56.121
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:56.121
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:27:56.272
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:04.705
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:04.706
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:04.895
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:05.028
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:05.028
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:05.182
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:06.048
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:06.049
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:28:06.204
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:33:43.549
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:33:43.550
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:33:43.744
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-20 15:35:45.387
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.451
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.451
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.467
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.467
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.559
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.560
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.572
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.572
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.586
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.587
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.610
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.611
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.629
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.629
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.653
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.653
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.674
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.675
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.690
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.691
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.694
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.754
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.757
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.763
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.788
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.815
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.842
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.853
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.856
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:45.861
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:46.679
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:46.679
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:46.877
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.386
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.386
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.552
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.771
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.772
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:35:47.938
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:36:46.488
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:36:46.489
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:36:46.658
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-20 15:37:54.215
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:39:59.643
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:39:59.644
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:39:59.841
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:05.751
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:05.753
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:05.933
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:19.590
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:19.590
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:19.768
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:50.323
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:50.324
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:40:50.492
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:41:10.476
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:41:10.477
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:41:10.648
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.217
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.217
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.222
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.222
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.235
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.236
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.271
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.271
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.278
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.279
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.318
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.319
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.348
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.349
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.358
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.359
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.367
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.368
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.384
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.384
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.496
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.503
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.535
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.536
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.537
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.545
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.546
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.550
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.552
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.558
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.567
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.587
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:05.712
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:06.127
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:06.127
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:42:06.282
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY org.eclipse.jdt.debug 2 0 2018-11-20 15:43:21.343
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:13.783
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:13.783
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:13.955
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gwt.eclipse.core 4 0 2018-11-20 15:44:24.906
+!MESSAGE Could not refresh the references on the D:\twk\Babel-Repo\BabelWeb\src\com\gwt\babel\Main.ui.xml
+!STACK 0
+java.io.FileNotFoundException: Could not find the file backing the XML model.
+	at com.google.gwt.eclipse.core.uibinder.model.reference.UiBinderXmlParser.newInstance(UiBinderXmlParser.java:132)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher.refreshUiXmlUnsafe(ReferenceRefresher.java:195)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher.access$0(ReferenceRefresher.java:190)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher$1.run(ReferenceRefresher.java:181)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher.refreshUiXml(ReferenceRefresher.java:179)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher.refreshUiXml(ReferenceRefresher.java:169)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.ReferenceRefresher.refreshReference(ReferenceRefresher.java:84)
+	at com.google.gwt.eclipse.core.uibinder.model.reference.UiBinderReferenceManager$1$1.runInWorkspace(UiBinderReferenceManager.java:153)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:25.046
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:25.047
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:44:25.212
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:49:29.096
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:49:29.097
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:49:29.267
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:50:50.160
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:50:50.160
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:50:50.334
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:31.502
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:31.502
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:31.677
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:49.310
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:49.310
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:51:49.478
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:05.467
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:05.467
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:05.634
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:16.426
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:16.426
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:16.613
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:25.779
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:25.779
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:52:25.945
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:53:01.376
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:53:01.377
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:53:01.546
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+!SESSION 2018-11-20 15:54:27.048 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-20 15:54:41.770
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roberto'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.gwtplugins.gwt.eclipse.wtp 1 1 2018-11-20 15:55:01.424
+!MESSAGE GWT: GWT Facet startup
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:55:57.355
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:55:57.356
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:55:57.532
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:24.651
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:24.653
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:24.834
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:28.824
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:28.825
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:28.988
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:30.439
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:30.439
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 15:56:30.614
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:02:24.681
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:02:24.682
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:02:24.859
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:03:10.824
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:03:10.825
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:03:10.995
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:04:24.710
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:04:24.711
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:04:24.905
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:05:14.623
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:05:14.623
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:05:15.066
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2018-11-20 16:05:43.704
+!MESSAGE Failed to stream using org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport@3020d375 - falling back to org.eclipse.epp.internal.mpc.core.util.TransportFactory$$Lambda$605/681765445@321a6f4a: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:119)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:165)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:555)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:318)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:86)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.195] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:93)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:96)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:55)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:104)
+	... 14 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 29 more
+Contains: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:93)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:96)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:55)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:104)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:165)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:555)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:318)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:86)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-11-20 16:05:43.705
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.195] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:93)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:96)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:55)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:104)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:165)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:555)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:318)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:86)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 29 more
+!SUBENTRY 2 org.eclipse.epp.mpc.core 4 0 2018-11-20 16:05:43.705
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:93)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:96)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:55)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:104)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:165)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:555)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:318)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:86)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2018-11-20 16:05:43.706
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:93)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:96)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:55)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:104)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:165)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.processSearchRequest(DefaultMarketplaceService.java:528)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:555)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.tagged(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$1(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:331)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:312)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.tagged(CachingMarketplaceService.java:318)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:86)
+	at org.eclipse.epp.internal.mpc.ui.discovery.DiscoverFileSupportJob.run(DiscoverFileSupportJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 8 0 2018-11-20 16:06:18.386
+!MESSAGE org.eclipse.epp.mpc.ui
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:208)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2018-11-20 16:07:33.506 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/D:/twk/Babel-Repo/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-20 16:07:49.717
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roberto'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:11:24.725
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:11:24.735
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:11:25.014
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gwt.eclipse.wtp 1 1 2018-11-20 16:11:33.667
+!MESSAGE GWT: GWT Facet startup
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:39.744
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:39.746
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:39.985
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:43.298
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:43.298
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:19:43.460
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:30:49.167
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:30:49.167
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:30:49.387
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:31:18.125
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:31:18.126
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:31:18.315
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:33:08.150
+!MESSAGE Sending POST request to Analytics: {cd1=org.eclipse.epp.package.jee.product, cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0, cd3=3.13.100.v20180828-0158, t=event, cd6=GWT 2.7.0, v=1, ea=GWT_COMPILATION, an=GWT Eclipse Plugin, tid=UA-62291716-1, ec=com.gwtplugins.gdt.eclipse.suite.update, cd10=1538932488778, cid=1538932488778}
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:33:08.151
+!MESSAGE Analytics ping request parameters: cd1=org.eclipse.epp.package.jee.product&cd4=com.gwtplugins.eclipse.suite.v3.feature_0.0.0.0&cd3=3.13.100.v20180828-0158&t=event&cd6=GWT%202.7.0&v=1&ea=GWT_COMPILATION&an=GWT%20Eclipse%20Plugin&tid=UA-62291716-1&ec=com.gwtplugins.gdt.eclipse.suite.update&cd10=1538932488778&cid=1538932488778
+
+!ENTRY com.gwtplugins.gdt.eclipse.suite.update 1 0 2018-11-20 16:33:08.692
+!MESSAGE Analytics ping response: 200: OK
+GIF89a  €ÿ ÿÿÿ   ,       D ;
