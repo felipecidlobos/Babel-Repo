@@ -71,14 +71,22 @@ public class ProductDaoImp implements ProductDAO{
 	@Override
 	public List<Product> getProducts() {
 		// get a list with all the products
+<<<<<<< HEAD
+		List<Product> listaGenial = null;
+=======
 		List<Product> productList = null;
+>>>>>>> origin/development/hibernate2
 		
 		Session s = HibernateUtil.sessionFactory.openSession();
 		Transaction t = s.beginTransaction();
 		String query = "FROM Product";
 		
 		try {
+<<<<<<< HEAD
+			listaGenial = s.createQuery(query).getResultList();
+=======
 			productList = s.createQuery(query).getResultList();
+>>>>>>> origin/development/hibernate2
 			t.commit();
 			s.close();
 		} catch(Exception ex){
@@ -89,8 +97,14 @@ public class ProductDaoImp implements ProductDAO{
 				s.close();
 			}
 		}
+<<<<<<< HEAD
+		return listaGenial;
+		
+	}
+=======
 		return productList;
 		
 }
+>>>>>>> origin/development/hibernate2
 
 }
