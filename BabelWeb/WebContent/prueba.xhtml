@@ -13,14 +13,17 @@
         <h1>Hola mundo</h1>
         <h:form	id="ingresarProducto">
         
-        <h:panelGrid columns="3" cellpadding="5">
-            <h:outputLabel value="description" />
+        <h:panelGrid columns="1" cellpadding="1">
+        	<p:outputLabel value="id" />
+            <p:inputText value="#{productBean.product.productId}" />
+            
+            <p:outputLabel value="description" />
             <p:inputText value="#{productBean.product.description}" />
              
-            <h:outputLabel value="Precio" />
+            <p:outputLabel value="Precio"/>
             <p:inputText value="#{productBean.product.price}" />
             
-            <h:outputLabel for="Um" value="Um" />
+            <p:outputLabel value="Um" />
             <p:inputText value="#{productBean.product.uM}"/>
               
             <f:facet name="footer">

@@ -11,6 +11,7 @@ public class ProductBean {
 	private Product product;
 	
 	private List<Product> listProduct;
+	
 	public ProductBean() {
 		
 	}
@@ -23,15 +24,16 @@ public class ProductBean {
 	}
 	
 	public List<Product> getListProduct() {
-		ProductDAO productDao = new ProductDaoImp();
+		/*ProductDAO productDao = new ProductDaoImp();
 		listProduct = productDao.getProducts();
+		return listProduct;*/
+		ProductRepository productRepo = new ProductRepository();
+		listProduct = productRepo.getProducts();
 		return listProduct;
+		
 	}
 	
-	public void setListProduct(List<Product> listProduct) {
-		this.listProduct = listProduct;
-	}
-	
+		
 	public void addProduct() {
 		/*ProductRepository productRepo = new ProductRepository();
 		productRepo.newProduct(product);

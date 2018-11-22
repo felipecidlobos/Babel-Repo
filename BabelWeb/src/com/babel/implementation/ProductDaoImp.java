@@ -68,6 +68,7 @@ public class ProductDaoImp implements ProductDAO{
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<Product> getProducts() {
 		// get a list with all the products
@@ -75,10 +76,10 @@ public class ProductDaoImp implements ProductDAO{
 		
 		Session s = HibernateUtil.sessionFactory.openSession();
 		Transaction t = s.beginTransaction();
-		String query = "FROM Product";
+		String query = "FROM products";
 		
 		try {
-			productList = s.createQuery(query).getResultList();
+			productList = s.createQuery(query).list();
 			t.commit();
 			s.close();
 		} catch(Exception ex){
