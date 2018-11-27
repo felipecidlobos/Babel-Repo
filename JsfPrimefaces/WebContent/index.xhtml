@@ -9,10 +9,47 @@
     </h:head>
  
     <h:body>
-        
-        <p:button value="Bookmark" icon="pi pi-star" style="margin-right:20px;">
+        <h:form id="" > 
     	
-		</p:button>
+    	<p:panelGrid columns="2">
+    	
+    		<p:outputLabel value="Description"/>
+    		<p:inputText value="#{}"/>
+    		
+    		<p:outputLabel value="Price"/>
+    		<p:inputText value="#{}"/>
+    
+    		<p:outputLabel value="UM"/>
+    		<p:inputText value="#{}"/>
+    
+    
+    	</p:panelGrid>
+    
+    	<p:commandButton actionListener="" value="Register"/>
+    
+    </h:form>
+    
+
+	<h:form id="" > 
+	<p:dataTable var="" value="#{}">
+		<p:column headerText="Id">
+			<h:outputText value="#{}" />
+		</p:column>
+
+		<p:column headerText="Description">
+			<h:outputText value="#{}" />
+		</p:column>
+
+		<p:column headerText="Price">
+			<h:outputText value="#{}" />
+		</p:column>
+
+		<p:column headerText="UM">
+			<h:outputText value="#{}" />
+		</p:column>
+	</p:dataTable>
+    
+    </h:form>
         
     </h:body>
 </html>
