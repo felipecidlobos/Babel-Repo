@@ -72,10 +72,14 @@ public class ProductDaoImp implements ProductDAO{
 	public List<Product> getProducts() {
 		// get a list with all the products
 <<<<<<< HEAD
+<<<<<<< HEAD
 		List<Product> listaGenial = null;
 =======
 		List<Product> productList = null;
 >>>>>>> origin/development/hibernate2
+=======
+		List<Product> productList = null;
+>>>>>>> origin/gwt2.0
 		
 		Session s = HibernateUtil.sessionFactory.openSession();
 		Transaction t = s.beginTransaction();
@@ -83,10 +87,14 @@ public class ProductDaoImp implements ProductDAO{
 		
 		try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			listaGenial = s.createQuery(query).getResultList();
 =======
 			productList = s.createQuery(query).getResultList();
 >>>>>>> origin/development/hibernate2
+=======
+			productList = s.createQuery(query).getResultList();
+>>>>>>> origin/gwt2.0
 			t.commit();
 			s.close();
 		} catch(Exception ex){
@@ -98,6 +106,7 @@ public class ProductDaoImp implements ProductDAO{
 			}
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		return listaGenial;
 		
 	}
@@ -106,5 +115,10 @@ public class ProductDaoImp implements ProductDAO{
 		
 }
 >>>>>>> origin/development/hibernate2
+=======
+		return productList;
+		
+}
+>>>>>>> origin/gwt2.0
 
 }

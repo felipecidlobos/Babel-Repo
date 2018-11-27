@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
@@ -19,3 +20,26 @@
         </property>
     </class>
 </hibernate-mapping>
+=======
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-Nov-2018 12:26:14 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.babel.models.Product" table="PRODUCTS">
+        <id name="productId" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="Description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="price" type="java.lang.Double">
+            <column name="PRICE" />
+        </property>
+        <property name="uM" type="java.lang.String" access="field">
+            <column name="UM" />
+        </property>
+    </class>
+</hibernate-mapping>
+>>>>>>> origin/gwt2.0

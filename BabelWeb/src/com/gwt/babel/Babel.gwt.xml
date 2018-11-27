@@ -27,5 +27,9 @@
   <source path='shared'/>
 
   <!-- allow Super Dev Mode -->
+<<<<<<< HEAD
   <add-linker name="xsiframe"/>
+=======
+  <add-linker name="xsiframe"/> 
+>>>>>>> origin/gwt2.0
 </module>
