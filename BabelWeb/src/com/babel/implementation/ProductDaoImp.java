@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.babel.implementation;
 
 import java.util.List;
@@ -96,6 +97,8 @@ public class ProductDaoImp implements ProductDAO{
 
 }
 =======
+=======
+>>>>>>> origin/gwt2.0
 package com.babel.implementation;
 
 import java.util.List;
@@ -170,10 +173,14 @@ public class ProductDaoImp implements ProductDAO{
 	public List<Product> getProducts() {
 		// get a list with all the products
 <<<<<<< HEAD
+<<<<<<< HEAD
 		List<Product> listaGenial = null;
 =======
 		List<Product> productList = null;
 >>>>>>> origin/development/hibernate2
+=======
+		List<Product> productList = null;
+>>>>>>> origin/gwt2.0
 		
 		Session s = HibernateUtil.sessionFactory.openSession();
 		Transaction t = s.beginTransaction();
@@ -181,10 +188,14 @@ public class ProductDaoImp implements ProductDAO{
 		
 		try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			listaGenial = s.createQuery(query).getResultList();
 =======
 			productList = s.createQuery(query).getResultList();
 >>>>>>> origin/development/hibernate2
+=======
+			productList = s.createQuery(query).getResultList();
+>>>>>>> origin/gwt2.0
 			t.commit();
 			s.close();
 		} catch(Exception ex){
@@ -195,6 +206,7 @@ public class ProductDaoImp implements ProductDAO{
 				s.close();
 			}
 		}
+<<<<<<< HEAD
 <<<<<<< HEAD
 		return listaGenial;
 		
@@ -207,3 +219,10 @@ public class ProductDaoImp implements ProductDAO{
 
 }
 >>>>>>> b811eb7baa7b99019efc5cabb4a4ab077bac56ed
+=======
+		return productList;
+		
+}
+
+}
+>>>>>>> origin/gwt2.0

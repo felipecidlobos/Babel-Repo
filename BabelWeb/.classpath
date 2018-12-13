@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> development/play
 <?xml version="1.0" encoding="UTF-8"?>
@@ -120,3 +121,26 @@
 >>>>>>> origin/development/hibernate2
 =======
 >>>>>>> development/play
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/byte-buddy-1.8.12.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/hibernate-commons-annotations-5.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/hibernate-core-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/libreriashibernate/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/mysql-connector-java-5.1.39.jar"/>
+	<classpathentry kind="lib" path="D:/twk/Babel-Repo/BabelWeb/ojdbc6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
+>>>>>>> origin/gwt2.0

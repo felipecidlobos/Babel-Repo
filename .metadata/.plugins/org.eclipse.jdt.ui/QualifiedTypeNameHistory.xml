@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.VerticalPanel"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.HorizontalPanel"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.FlexTable"/>
+<fullyQualifiedTypeName name="com.google.gwt.core.client.EntryPoint"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.TextBox"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Button"/>
+<fullyQualifiedTypeName name="com.google.gwt.dev.protobuf.DescriptorProtos.FieldDescriptorProto.Label"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Label"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

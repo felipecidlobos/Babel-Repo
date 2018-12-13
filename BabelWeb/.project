@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Babel</name>
+=======
+	<name>babel</name>
+>>>>>>> origin/gwt2.0
 	<comment></comment>
 	<projects>
 	</projects>
